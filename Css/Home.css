@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat";
+  
+}
+header{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../Images/home.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+
+}
+ul li{
+    display: inline-block;
+    margin-right: 15px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: .0s ease;
+    cursor: pointer;
+}
+ul li a:hover{
+    border-radius: 0.6em ;
+    background-color: #fff;
+    color: #000;
+}
+ul li.active a{
+    border-radius: 0.6em;
+    background-color: #EC9235;
+    color: #000;
+}
+.logo img{
+    float: left;
+    width: 50px;
+    padding: 10px;
+}
+.lname{
+    float: left;
+    text-decoration: none;
+    margin-top: 21px;
+    padding: 5px;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    color: white;
+    cursor: pointer;
+
+
+}
+.har1{
+    float: left;
+    margin-top: 320px;
+    margin-left: 15px;
+    position: absolute;
+    font-size: 45px;
+    font-weight: bold;
+    color: #EC9235;
+}
+.arrow{
+    float: left;
+    padding: 50px;
+    margin-top: 340px;
+    margin-left: 180px;
+    position: absolute;
+    font-size: 35px;
+    height: 10px;
+    width: 25px;
+}
+.arrow2{
+    float: left;
+    padding: 50px;
+    margin-top: 430px;
+    margin-left: 180px;
+    position: absolute;
+    font-size: 35px;
+    height: 10px;
+    width: 25px;
+}
+.top-ins {
+    background-image: url(../Images/Background\ {fae5e5}.png);
+    height: 480vh ;
+    background-size: cover;
+    background-position: center;
+
+}
+.ins-tlt {
+    font-size: 150%;
+}
+
+.m1-img{
+    height: 100px;
+    width: 100px;
+    margin-left: 500px;  
+}
+.m1{
+    font-size: 150%;
+    margin-left: 15px;
+}
+
+.m1-info{
+    font-size: 80%;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.m2-img{
+    height: 100px;
+    width: 100px;
+    margin-left: 500px;  
+    margin-top: 25px;
+    padding-top: 50px;
+}
+.m2{
+    font-size: 150%;
+    margin-left: 15px;
+}
+.m2-info{
+    font-size: 80%;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.m3-4-5img{
+    height: 100px;
+    width: 100px;
+    margin-left: 500px;  
+    margin-top: 25px;
+    padding-top: 50px;
+}
+.m3-4-5{
+    font-size: 150%;
+    margin-left: 15px;
+}
+.m3-4-5info{
+    font-size: 80%;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.i1{
+    color: black;
+}
+.selectstate{
+    position: absolute;
+    text-decoration: underline;
+    margin: 3280px;
+    height: 50px;
+    width: 500px;
+    margin-left: 600px;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    font-size: 50px;
+    color: #EC9235;
+}
+.state{
+    position: absolute;
+    text-decoration:none;
+    color: #000;
+    border-radius: 8px  ;
+
+}
+.b1 button{
+    position: absolute;
+    margin: 3400px;;
+    margin-left: 20px;
+    border-color: #000;
+    height: 38px;
+    width: 100px;
+}
+.b2 button{
+    position: absolute;
+    margin: 3400px;;
+    margin-left: 135px;
+    border-color: #000;
+    height: 38px;
+}
+.b3 button{
+    position: absolute;
+    margin: 3400px;;
+    margin-left: 210px;
+    border-color: #000;
+    height: 38px;
+}
+.b4 button{
+    position: absolute;
+    margin: 3400px;;
+    margin-left: 300px;
+    border-color: #000;
+    height: 38px;
+}
+.b5 button{
+    position: absolute;
+    margin: 3400px;;
+    margin-left: 365px;
+    border-color: #000;
+    height: 38px;
+}
+.b6 button{
+    position: absolute;
+    margin: 3400px;;
+    margin-left: 420px;
+    border-color: #000;
+    height: 38px;
+}
+.b7 button{
+    position: absolute;
+    margin: 3400px;;
+    margin-left: 520px;
+    border-color: #000;
+    height: 38px;
+}
+.b8 button{
+    position: absolute;
+    margin: 3400px;;
+    margin-left: 625px;
+    border-color: #000;
+    height: 38px;
+    width: 140px;
+}
+.b9 button{
+    position: absolute;
+    margin: 3400px;;
+    margin-left: 785px;
+    border-color: #000;
+    height: 38px;
+    width: 100px;
+}
+.b10 button{
+    position: absolute;
+    margin: 3400px;;
+    margin-left: 900px;
+    border-color: #000;
+    height: 38px;
+    width: 100px;
+}
+.b11 button{
+    position: absolute;
+    margin: 3400px;;
+    margin-left: 1015px;
+    border-color: #000;
+    height: 38px;
+    width: 100px;
+}
+.b12 button{
+    position: absolute;
+    margin: 3400px;;
+    margin-left: 1130px;
+    border-color: #000;
+    height: 38px;
+    width: 100px;
+}
+.b13 button{
+    position: absolute;
+    margin: 3400px;;
+    margin-left: 1245px;
+    border-color: #000;
+    height: 38px;
+    width: 100px;
+}
+.b14 button{
+    position: absolute;
+    margin: 3400px;;
+    margin-left: 1365px;
+    border-color: #000;
+    height: 38px;
+    width: 100px;
+}
+.b15 button{
+    position: absolute;
+    margin: 3460px;;
+    margin-left: 20px;
+    border-color: #000;
+    height: 38px;
+    width: 100px;
+}
+.b16 button{
+    position: absolute;
+    margin: 3460px;;
+    margin-left: 135px;
+    border-color: #000;
+    height: 38px;
+    width: 100px;
+}
+.b17 button{
+    position: absolute;
+    margin: 3460px;;
+    margin-left: 250px;
+    border-color: #000;
+    height: 38px;
+    width: 100px;
+}
+.b18 button{
+    position: absolute;
+    margin: 3460px;;
+    margin-left: 370px;
+    border-color: #000;
+    height: 38px;
+    width: 100px;
+}
+.b19 button{
+    position: absolute;
+    margin: 3460px;;
+    margin-left: 490px;
+    border-color: #000;
+    height: 38px;
+    width: 100px;
+}
+.b20 button{
+    position: absolute;
+    margin: 3460px;;
+    margin-left: 610px;
+    border-color: #000;
+    height: 38px;
+    width: 100px;
+}
+.b21 button{
+    position: absolute;
+    margin: 3460px;;
+    margin-left: 730px;
+    border-color: #000;
+    height: 38px;
+    width: 100px;
+}
+.b22 button{
+    position: absolute;
+    margin: 3460px;;
+    margin-left: 850px;
+    border-color: #000;
+    height: 38px;
+    width: 100px;
+}
+.b23 button{
+    position: absolute;
+    margin: 3460px;;
+    margin-left: 970px;
+    border-color: #000;
+    height: 38px;
+    width: 100px;
+}
+.b24 button{
+    position: absolute;
+    margin: 3460px;;
+    margin-left: 1090px;
+    border-color: #000;
+    height: 38px;
+    width: 100px;
+}
+.b25 button{
+    position: absolute;
+    margin: 3460px;;
+    margin-left: 1210px;
+    border-color: #000;
+    height: 38px;
+    width: 100px;
+}
+.b26 button{
+    position: absolute;
+    margin: 3460px;;
+    margin-left: 1330px;
+    border-color: #000;
+    height: 38px;
+    width: 100px;
+}
+.b27 button{
+    position: absolute;
+    margin: 3520px;;
+    margin-left: 20px;
+    border-color: #000;
+    height: 38px;
+    width: 100px;
+}
+.b28 button{
+    position: absolute;
+    margin: 3520px;;
+    margin-left: 140px;
+    border-color: #000;
+    height: 38px;
+    width: 100px;
+}
+.b29 button{
+    position: absolute;
+    margin: 3520px;;
+    margin-left: 260px;
+    border-color: #000;
+    height: 38px;
+    width: 100px;
+}
+.b30 button{
+    position: absolute;
+    margin: 3520px;;
+    margin-left: 380px;
+    border-color: #000;
+    height: 38px;
+    width: 100px;
+}
+.b31 button{
+    position: absolute;
+    margin: 3520px;;
+    margin-left: 500px;
+    border-color: #000;
+    height: 38px;
+    width: 100px;
+}
+.b32 button{
+    position: absolute;
+    margin: 3520px;;
+    margin-left: 620px;
+    border-color: #000;
+    height: 38px;
+    width: 100px;
+}
+.b33 button{
+    position: absolute;
+    margin: 3520px;;
+    margin-left: 740px;
+    border-color: #000;
+    height: 38px;
+    width: 100px;
+}
+.b34 button{
+    position: absolute;
+    margin: 3520px;;
+    margin-left: 860px;
+    border-color: #000;
+    height: 38px;
+    width: 100px;
+}
+.b35 button{
+    position: absolute;
+    margin: 3520px;;
+    margin-left: 980px;
+    border-color: #000;
+    height: 38px;
+    width: 100px;
+}
+.b36 button{
+    position: absolute;
+    margin: 3520px;;
+    margin-left: 1100px;
+    border-color: #000;
+    height: 38px;
+    width: 100px;
+}

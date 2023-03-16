@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../Images/joinus.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+    margin-right: 15px;
+    font-weight: bold;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: .0s ease;
+    cursor: pointer;
+}
+ul li a:hover{
+    border-radius: 0.6em;
+    background-color: #fff;
+    color: #000;
+}
+ul li.active a{
+    border-radius: 0.6em;
+    background-color: #EC9235;
+    color: #000;
+}
+.logo img{
+    float: left;
+    width: 50px;
+    padding: 10px;
+}
+.lname{
+    float: left;
+    text-decoration: none;
+    margin-top: 21px;
+    padding: 5px;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    color: white;
+    cursor: pointer;
+
+
+}
+.Contact-us{
+    width: 430px;
+    height: 520px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+.Contact-us .circle1, .circle2{
+    height: 170px;
+    width: 170px;
+    position: absolute;
+    border-radius: 50%;
+}
+.circle1{
+    background: linear-gradient(rgb(102, 255, 0),rgb(255, 230, 4));
+    left: -80px;
+    top: -50px;
+}
+.circle2{
+    background: linear-gradient(to right, rgb(102, 255, 0),rgb(255, 230, 4));
+    right: -70px;
+    bottom: -60px
+}
+form{
+    height: 520px;
+    width: 430px;
+    background-color: rgb(255,255,255,0.05);
+    position:absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgb(255,255,255,0.01);
+    box-shadow: 0 0 40px rgb(8,7,16,0.6);
+    padding: 20px;
+}
+form *{
+    color: white;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+
+}
+form h1{
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 42px;
+    text-align: center;
+
+}
+form h1 span{
+    display: block;
+    font-size: 16px;
+    font-weight: 300px;
+
+}
+label{
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500px;
+}
+input{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(255, 255, 255, 0.07);
+    border-radius: 10px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 15px;
+    font-weight: 300px;
+}
+::placeholder{
+    color: #e5e5e5;
+    margin-right: 2px;
+
+}
+button{
+    margin-top: 50px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    height: 45px;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+button:hover{
+    background: linear-gradient(to right, rgb(255, 166, 0),rgb(255, 188, 4));
+    color: white;
+}
+form h2{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 42px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+    font-style: italic;
+}  
+form h2 span{
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+
+}
